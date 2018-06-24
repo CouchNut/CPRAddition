@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CPRAddition_Example' do
+  pod 'CPRAddition', :path => '../'
+
+  target 'CPRAddition_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
