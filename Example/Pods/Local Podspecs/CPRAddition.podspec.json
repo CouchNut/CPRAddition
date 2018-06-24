@@ -1,18 +1,18 @@
 {
   "name": "CPRAddition",
   "version": "0.1.0",
-  "summary": "A short description of CPRAddition.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/yttsecretlisa/CPRAddition",
+  "summary": "将开发中常用的方法，封装添加到分类中。",
+  "description": "将常用的方法，放到分类中，方便在项目中调用。",
+  "homepage": "https://github.com/yitongtong/CPRAddition",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "yttsecretlisa": "yitongtong@secretlisa.com"
+    "yitongtong": "yit_copper@163.com"
   },
   "source": {
-    "git": "https://github.com/yttsecretlisa/CPRAddition.git",
+    "git": "https://github.com/yitongtong/CPRAddition.git",
     "tag": "0.1.0"
   },
   "platforms": {

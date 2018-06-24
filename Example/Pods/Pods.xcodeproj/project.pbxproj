@@ -7,16 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1285E68BC8129ED77C76474B5C74026B /* UIColor+CPRAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A1A544F0F307FD69D91ABF4501D01D0 /* UIColor+CPRAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		152AC057E0B03F4678C5FE01491A42E2 /* UIView+CPRAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BF0F8539FFC80D4C656F1478E8D75B5 /* UIView+CPRAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16858B31F07A425CD373D68584005DB6 /* NSString+CPRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CBF271E9C088B84930574A609B2E28 /* NSString+CPRAddition.m */; };
 		1F66749E524281017B7412512FEF862F /* Pods-CPRAddition_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F9EF6BFF2129002BF32CBB587E6E5C /* Pods-CPRAddition_Example-dummy.m */; };
 		31C9F62A934B5DA6BBDA8379542022C1 /* Pods-CPRAddition_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22127139C7602D8F27FBA03B0F65664B /* Pods-CPRAddition_Tests-dummy.m */; };
-		37C8C5DFB1EE21B5C1A0C35933A7D002 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D41BA055CD8020E94EA404618856C7 /* ReplaceMe.m */; };
+		4E3DF2896DD09839B8382EFEF0C6FD18 /* NSDate+CPRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D4626ED90DB9AD770DFA4859DA217C /* NSDate+CPRAddition.m */; };
+		4E87240D3DF58CDB32D5F0972898DB16 /* NSString+CPRAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = ACA5FD9E657713FAF38B0ECD3199F15E /* NSString+CPRAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		674B5EDA2BF19CF693400CE6A4766CE5 /* NSDate+CPRAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 0714228C5587D974BDC4AE1BAD15B1B5 /* NSDate+CPRAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70B34E66B9A00FCD696F782C6A3CCA43 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B2BE3AC81014B73B3FA8735827686D /* GTMBase64.m */; };
+		70BE3C73A3969ACA9C637D560A675475 /* NSDictionary+CPRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 32ED2CA8E3C6DD87FED1EF6B0A51BA98 /* NSDictionary+CPRAddition.m */; };
 		70E39EA9AF9025C5245C11D514B7A182 /* Pods-CPRAddition_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5A149A82FF4C3AEFDB85A2DCE47E5F0 /* Pods-CPRAddition_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		852F81D041DB748B1CF372719EFCC707 /* CPRAddition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7214F565EFB29C1EF2CB2EAD39B16455 /* CPRAddition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A8A4857043080188F4D74DABAEC04F97 /* CPRAddition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3031608EFA9A4FFE7A3B8F487EEC3C /* CPRAddition-dummy.m */; };
+		9146D63494A64BD0C62B0ABBDD2BEEFF /* CPRAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 8599C870CBA6D6FE7ED4451708E1726E /* CPRAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DAB32227C246997C5EDCF12FB9DB421 /* UIView+CPRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = E2432867978B1911BFC5B6DF4C22B178 /* UIView+CPRAddition.m */; };
+		ACC5C1B3D446E05B56DB86C630FD5452 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		B57B9C7399C846B6C4CDBE33576B57AB /* Pods-CPRAddition_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6635838169B7335C184A8D6B4FC282 /* Pods-CPRAddition_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B618C5EEB2050339DBE04F8D2D1CB78B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		E719693B60B96354186F3CD9BF17B8A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		C729549BC0914BB93E1B7A219ADD851D /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 7333EFF4999AE460E768B860F39BD906 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE732F4E079DC68164A24359C9045040 /* UIColor+CPRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA45E703ACD3925AD76D7E89D3B286B /* UIColor+CPRAddition.m */; };
+		EDB41E1243102E4A283C4419580AA538 /* NSDictionary+CPRAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = B95E67642FAF117406947180335FC8D1 /* NSDictionary+CPRAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1D70F1864C81364C1425F170E04CA52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		F20547549C0A207C9F21DE47F772A3D3 /* CPRAddition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8C714B8E91FE7EF1673F79013A4907 /* CPRAddition-dummy.m */; };
+		F652F6EBD530449B405B2D9D489A244F /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF9B8998DAE55C672BF348601B819F7 /* GTMBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7EE018F2EFA1D58FE216F23F9A7F65F /* CPRAddition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F874C9EC1A33987A4D71052CBBADC31 /* CPRAddition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,18 +44,22 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E2E6612575032715D8B99D0938FA24FD;
+			remoteGlobalIDString = B3C9F1F50C7EA001B7878F145AC3DF49;
 			remoteInfo = CPRAddition;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0714228C5587D974BDC4AE1BAD15B1B5 /* NSDate+CPRAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+CPRAddition.h"; sourceTree = "<group>"; };
+		1D0C58E8EC8812BA5E37B5702100E9A6 /* CPRAddition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CPRAddition-prefix.pch"; sourceTree = "<group>"; };
 		22127139C7602D8F27FBA03B0F65664B /* Pods-CPRAddition_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CPRAddition_Tests-dummy.m"; sourceTree = "<group>"; };
+		22B2BE3AC81014B73B3FA8735827686D /* GTMBase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		2A1A544F0F307FD69D91ABF4501D01D0 /* UIColor+CPRAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+CPRAddition.h"; sourceTree = "<group>"; };
+		32ED2CA8E3C6DD87FED1EF6B0A51BA98 /* NSDictionary+CPRAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CPRAddition.m"; sourceTree = "<group>"; };
 		3398E1A412154B1F93695162A8FF9967 /* Pods_CPRAddition_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CPRAddition_Example.framework; path = "Pods-CPRAddition_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		395F4DCBE7BA81C7144BBC22505F920E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		4C62266524181E7A24D4CA7D7DF6C736 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D9C613AF0987E147F57C95252DCAD77 /* CPRAddition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CPRAddition.xcconfig; sourceTree = "<group>"; };
+		4F874C9EC1A33987A4D71052CBBADC31 /* CPRAddition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CPRAddition-umbrella.h"; sourceTree = "<group>"; };
 		50A59F415CF175BBDC5E98B7F0D3A18C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52D41BA055CD8020E94EA404618856C7 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CPRAddition/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		592A90931BA1B32288E30A2BD32DFF54 /* Pods_CPRAddition_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CPRAddition_Tests.framework; path = "Pods-CPRAddition_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		612AD451E4488CF3E66FE280DE7233D3 /* Pods-CPRAddition_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CPRAddition_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -50,39 +67,40 @@
 		67F9EF6BFF2129002BF32CBB587E6E5C /* Pods-CPRAddition_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CPRAddition_Example-dummy.m"; sourceTree = "<group>"; };
 		6850307B7874768F57E835AD75612BEC /* Pods-CPRAddition_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPRAddition_Example.release.xcconfig"; sourceTree = "<group>"; };
 		699795169471096241A1979B8918B9F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7214F565EFB29C1EF2CB2EAD39B16455 /* CPRAddition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CPRAddition-umbrella.h"; sourceTree = "<group>"; };
+		69CBF271E9C088B84930574A609B2E28 /* NSString+CPRAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+CPRAddition.m"; sourceTree = "<group>"; };
+		6EF9B8998DAE55C672BF348601B819F7 /* GTMBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		7333EFF4999AE460E768B860F39BD906 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		75ECF22A0BCB35D4E97D4F0A9EF4FCB6 /* Pods-CPRAddition_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CPRAddition_Example.modulemap"; sourceTree = "<group>"; };
-		7B2627C1093644E75B53347B264174DD /* CPRAddition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CPRAddition.modulemap; sourceTree = "<group>"; };
+		80D4626ED90DB9AD770DFA4859DA217C /* NSDate+CPRAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CPRAddition.m"; sourceTree = "<group>"; };
 		824580400D75237953AF65FA7B0632D7 /* Pods-CPRAddition_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CPRAddition_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8599C870CBA6D6FE7ED4451708E1726E /* CPRAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CPRAddition.h; path = CPRAddition/Classes/CPRAddition.h; sourceTree = "<group>"; };
 		8C6635838169B7335C184A8D6B4FC282 /* Pods-CPRAddition_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CPRAddition_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8DA45E703ACD3925AD76D7E89D3B286B /* UIColor+CPRAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CPRAddition.m"; sourceTree = "<group>"; };
 		8FC5B89791E013DFF2ECE0794896AB41 /* Pods-CPRAddition_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CPRAddition_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		981627C9D1E43D79D012A6170DD8821A /* Pods-CPRAddition_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CPRAddition_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9BF0F8539FFC80D4C656F1478E8D75B5 /* UIView+CPRAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+CPRAddition.h"; sourceTree = "<group>"; };
 		9F1F302D2B6FC52C36F231EC3180CEE6 /* Pods-CPRAddition_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CPRAddition_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		A0B4EAB5C771C9ADC852E086173B3E23 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		B32BE3349C51C5DCED0ABC6ECEC29C52 /* CPRAddition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CPRAddition.xcconfig; sourceTree = "<group>"; };
+		A2BDEB07B763CBB50C3C749B4AFA25CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A830A01B42876B95145A5C5FC613993B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		ACA5FD9E657713FAF38B0ECD3199F15E /* NSString+CPRAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+CPRAddition.h"; sourceTree = "<group>"; };
 		B3CB98762CA24F65057F269DC5080027 /* CPRAddition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CPRAddition.framework; path = CPRAddition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5149C297C589577DC83BB0D0D22C7AD /* Pods-CPRAddition_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CPRAddition_Example-frameworks.sh"; sourceTree = "<group>"; };
-		BFA3029AA5D28BBBC19609C5CBF93B57 /* CPRAddition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CPRAddition-prefix.pch"; sourceTree = "<group>"; };
+		B95E67642FAF117406947180335FC8D1 /* NSDictionary+CPRAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CPRAddition.h"; sourceTree = "<group>"; };
+		C000FAA3BF39E4CF54F5F5B78C2E4C8B /* CPRAddition.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CPRAddition.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C610BE6587DDA629560D4FE94A00030C /* Pods-CPRAddition_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CPRAddition_Tests-resources.sh"; sourceTree = "<group>"; };
-		CE59B4121355CE108EB40A0D46AE5CF5 /* CPRAddition.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CPRAddition.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CF390B907D2C63ECE3C31EEF513CE9DB /* Pods-CPRAddition_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CPRAddition_Tests.modulemap"; sourceTree = "<group>"; };
+		CF4D506CDE57E56C46A4791BEA961888 /* CPRAddition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CPRAddition.modulemap; sourceTree = "<group>"; };
 		D5A149A82FF4C3AEFDB85A2DCE47E5F0 /* Pods-CPRAddition_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CPRAddition_Example-umbrella.h"; sourceTree = "<group>"; };
+		DB8C714B8E91FE7EF1673F79013A4907 /* CPRAddition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CPRAddition-dummy.m"; sourceTree = "<group>"; };
+		E2432867978B1911BFC5B6DF4C22B178 /* UIView+CPRAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+CPRAddition.m"; sourceTree = "<group>"; };
 		E760D61ADFE15AE570CE6F2893D557A6 /* Pods-CPRAddition_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPRAddition_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F3ACECAD5D4C8709204555678D85CE76 /* Pods-CPRAddition_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPRAddition_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F993851BF8D1938FD308F937C0C36E03 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDBACCF79E6A5D7A50E843C48E24DA40 /* Pods-CPRAddition_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPRAddition_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FE3031608EFA9A4FFE7A3B8F487EEC3C /* CPRAddition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CPRAddition-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		022A303AA16CF6BF63A459852D682852 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E719693B60B96354186F3CD9BF17B8A9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		229A679D6E3D275186237B2ED21ADA8B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -99,21 +117,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BE8E916F20D5E970D5E067564A32E7E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC5C1B3D446E05B56DB86C630FD5452 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1224247D79614108D1DA176D223D4030 /* Support Files */ = {
+		0A35AC81BD0A87C33AB6338E1B5B7075 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7B2627C1093644E75B53347B264174DD /* CPRAddition.modulemap */,
-				B32BE3349C51C5DCED0ABC6ECEC29C52 /* CPRAddition.xcconfig */,
-				FE3031608EFA9A4FFE7A3B8F487EEC3C /* CPRAddition-dummy.m */,
-				BFA3029AA5D28BBBC19609C5CBF93B57 /* CPRAddition-prefix.pch */,
-				7214F565EFB29C1EF2CB2EAD39B16455 /* CPRAddition-umbrella.h */,
-				4C62266524181E7A24D4CA7D7DF6C736 /* Info.plist */,
+				9EA7A970A5FA70DF15ED9478476988E2 /* CPRAddition */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CPRAddition";
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1920805D921DC03E714B9804916F6A86 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				0714228C5587D974BDC4AE1BAD15B1B5 /* NSDate+CPRAddition.h */,
+				80D4626ED90DB9AD770DFA4859DA217C /* NSDate+CPRAddition.m */,
+				B95E67642FAF117406947180335FC8D1 /* NSDictionary+CPRAddition.h */,
+				32ED2CA8E3C6DD87FED1EF6B0A51BA98 /* NSDictionary+CPRAddition.m */,
+				ACA5FD9E657713FAF38B0ECD3199F15E /* NSString+CPRAddition.h */,
+				69CBF271E9C088B84930574A609B2E28 /* NSString+CPRAddition.m */,
+			);
+			name = Foundation;
+			path = CPRAddition/Classes/Foundation;
 			sourceTree = "<group>";
 		};
 		1A541DE76BDE47F54507CEDD971A7643 /* Products */ = {
@@ -124,14 +158,6 @@
 				592A90931BA1B32288E30A2BD32DFF54 /* Pods_CPRAddition_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		1EE9916B5B2B3794614EFBE70DE16E97 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				38ED842DD532703230B8974FF36D47BD /* CPRAddition */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		2BE26AB397CDA9D53A2F5FABD5825EA7 /* Pods-CPRAddition_Tests */ = {
@@ -152,25 +178,16 @@
 			path = "Target Support Files/Pods-CPRAddition_Tests";
 			sourceTree = "<group>";
 		};
-		328424045A81F00263297E1633A349E4 /* Pod */ = {
+		4D65EC6E4457F6EB378E16646381EC8C /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				CE59B4121355CE108EB40A0D46AE5CF5 /* CPRAddition.podspec */,
-				395F4DCBE7BA81C7144BBC22505F920E /* LICENSE */,
-				A0B4EAB5C771C9ADC852E086173B3E23 /* README.md */,
+				2A1A544F0F307FD69D91ABF4501D01D0 /* UIColor+CPRAddition.h */,
+				8DA45E703ACD3925AD76D7E89D3B286B /* UIColor+CPRAddition.m */,
+				9BF0F8539FFC80D4C656F1478E8D75B5 /* UIView+CPRAddition.h */,
+				E2432867978B1911BFC5B6DF4C22B178 /* UIView+CPRAddition.m */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		38ED842DD532703230B8974FF36D47BD /* CPRAddition */ = {
-			isa = PBXGroup;
-			children = (
-				52D41BA055CD8020E94EA404618856C7 /* ReplaceMe.m */,
-				328424045A81F00263297E1633A349E4 /* Pod */,
-				1224247D79614108D1DA176D223D4030 /* Support Files */,
-			);
-			name = CPRAddition;
-			path = ../..;
+			name = UIKit;
+			path = CPRAddition/Classes/UIKit;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -179,6 +196,17 @@
 				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		67C141046FA7919435F3066D0A7A511C /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				6EF9B8998DAE55C672BF348601B819F7 /* GTMBase64.h */,
+				22B2BE3AC81014B73B3FA8735827686D /* GTMBase64.m */,
+				7333EFF4999AE460E768B860F39BD906 /* GTMDefines.h */,
+			);
+			name = GTMBase64;
+			path = GTMBase64;
 			sourceTree = "<group>";
 		};
 		6CE45DF2BD5D3B582842AD977BF15304 /* Targets Support Files */ = {
@@ -194,11 +222,44 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				1EE9916B5B2B3794614EFBE70DE16E97 /* Development Pods */,
+				0A35AC81BD0A87C33AB6338E1B5B7075 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				1A541DE76BDE47F54507CEDD971A7643 /* Products */,
 				6CE45DF2BD5D3B582842AD977BF15304 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		802E266433E18FFABA06AD441FBBA921 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				67C141046FA7919435F3066D0A7A511C /* GTMBase64 */,
+			);
+			name = Library;
+			path = CPRAddition/Classes/Library;
+			sourceTree = "<group>";
+		};
+		9EA7A970A5FA70DF15ED9478476988E2 /* CPRAddition */ = {
+			isa = PBXGroup;
+			children = (
+				8599C870CBA6D6FE7ED4451708E1726E /* CPRAddition.h */,
+				1920805D921DC03E714B9804916F6A86 /* Foundation */,
+				802E266433E18FFABA06AD441FBBA921 /* Library */,
+				9F41722560CA3CFEDEA05B34F9F92924 /* Pod */,
+				C16F5087FAE1956DBCCA0D61860019C0 /* Support Files */,
+				4D65EC6E4457F6EB378E16646381EC8C /* UIKit */,
+			);
+			name = CPRAddition;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9F41722560CA3CFEDEA05B34F9F92924 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C000FAA3BF39E4CF54F5F5B78C2E4C8B /* CPRAddition.podspec */,
+				A830A01B42876B95145A5C5FC613993B /* LICENSE */,
+				A2BDEB07B763CBB50C3C749B4AFA25CF /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -207,6 +268,20 @@
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C16F5087FAE1956DBCCA0D61860019C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF4D506CDE57E56C46A4791BEA961888 /* CPRAddition.modulemap */,
+				4D9C613AF0987E147F57C95252DCAD77 /* CPRAddition.xcconfig */,
+				DB8C714B8E91FE7EF1673F79013A4907 /* CPRAddition-dummy.m */,
+				1D0C58E8EC8812BA5E37B5702100E9A6 /* CPRAddition-prefix.pch */,
+				4F874C9EC1A33987A4D71052CBBADC31 /* CPRAddition-umbrella.h */,
+				F993851BF8D1938FD308F937C0C36E03 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CPRAddition";
 			sourceTree = "<group>";
 		};
 		F2747519BA1BDE2AD84563DD33BD5E31 /* Pods-CPRAddition_Example */ = {
@@ -238,11 +313,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA097C5CC0252ED6CB59641DCABF79D8 /* Headers */ = {
+		92B7D665CBD5187361AA578E23D943A7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				852F81D041DB748B1CF372719EFCC707 /* CPRAddition-umbrella.h in Headers */,
+				F7EE018F2EFA1D58FE216F23F9A7F65F /* CPRAddition-umbrella.h in Headers */,
+				9146D63494A64BD0C62B0ABBDD2BEEFF /* CPRAddition.h in Headers */,
+				F652F6EBD530449B405B2D9D489A244F /* GTMBase64.h in Headers */,
+				C729549BC0914BB93E1B7A219ADD851D /* GTMDefines.h in Headers */,
+				674B5EDA2BF19CF693400CE6A4766CE5 /* NSDate+CPRAddition.h in Headers */,
+				EDB41E1243102E4A283C4419580AA538 /* NSDictionary+CPRAddition.h in Headers */,
+				4E87240D3DF58CDB32D5F0972898DB16 /* NSString+CPRAddition.h in Headers */,
+				1285E68BC8129ED77C76474B5C74026B /* UIColor+CPRAddition.h in Headers */,
+				152AC057E0B03F4678C5FE01491A42E2 /* UIView+CPRAddition.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +358,23 @@
 			productReference = 3398E1A412154B1F93695162A8FF9967 /* Pods_CPRAddition_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		B3C9F1F50C7EA001B7878F145AC3DF49 /* CPRAddition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40AE99433EAC4A66F08E545BD598F59 /* Build configuration list for PBXNativeTarget "CPRAddition" */;
+			buildPhases = (
+				D6E51D38B647B6C8F38A4228C0FB2F4F /* Sources */,
+				BE8E916F20D5E970D5E067564A32E7E4 /* Frameworks */,
+				92B7D665CBD5187361AA578E23D943A7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CPRAddition;
+			productName = CPRAddition;
+			productReference = B3CB98762CA24F65057F269DC5080027 /* CPRAddition.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		DBBC0BBEE2FD2BB045BCD956035BC4CA /* Pods-CPRAddition_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A77FAC2D141C7FB6836E1D2D61031F6 /* Build configuration list for PBXNativeTarget "Pods-CPRAddition_Tests" */;
@@ -291,23 +391,6 @@
 			name = "Pods-CPRAddition_Tests";
 			productName = "Pods-CPRAddition_Tests";
 			productReference = 592A90931BA1B32288E30A2BD32DFF54 /* Pods_CPRAddition_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E2E6612575032715D8B99D0938FA24FD /* CPRAddition */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E4603B13CF6DD59F1C5CA77EBD8E9C67 /* Build configuration list for PBXNativeTarget "CPRAddition" */;
-			buildPhases = (
-				2F58C5E6C389517F3CDC7056B8C13368 /* Sources */,
-				022A303AA16CF6BF63A459852D682852 /* Frameworks */,
-				BA097C5CC0252ED6CB59641DCABF79D8 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CPRAddition;
-			productName = CPRAddition;
-			productReference = B3CB98762CA24F65057F269DC5080027 /* CPRAddition.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -331,7 +414,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E2E6612575032715D8B99D0938FA24FD /* CPRAddition */,
+				B3C9F1F50C7EA001B7878F145AC3DF49 /* CPRAddition */,
 				94C08B6095A21BD2D169287F955E192B /* Pods-CPRAddition_Example */,
 				DBBC0BBEE2FD2BB045BCD956035BC4CA /* Pods-CPRAddition_Tests */,
 			);
@@ -339,15 +422,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2F58C5E6C389517F3CDC7056B8C13368 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A8A4857043080188F4D74DABAEC04F97 /* CPRAddition-dummy.m in Sources */,
-				37C8C5DFB1EE21B5C1A0C35933A7D002 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3822B33CF6E2FCCEDEBEEF42600FC2D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -364,6 +438,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D6E51D38B647B6C8F38A4228C0FB2F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20547549C0A207C9F21DE47F772A3D3 /* CPRAddition-dummy.m in Sources */,
+				70B34E66B9A00FCD696F782C6A3CCA43 /* GTMBase64.m in Sources */,
+				4E3DF2896DD09839B8382EFEF0C6FD18 /* NSDate+CPRAddition.m in Sources */,
+				70BE3C73A3969ACA9C637D560A675475 /* NSDictionary+CPRAddition.m in Sources */,
+				16858B31F07A425CD373D68584005DB6 /* NSString+CPRAddition.m in Sources */,
+				DE732F4E079DC68164A24359C9045040 /* UIColor+CPRAddition.m in Sources */,
+				9DAB32227C246997C5EDCF12FB9DB421 /* UIView+CPRAddition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -376,12 +464,42 @@
 		E12DAEE28A082B0BCAF9F4FAD8798F67 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CPRAddition;
-			target = E2E6612575032715D8B99D0938FA24FD /* CPRAddition */;
+			target = B3C9F1F50C7EA001B7878F145AC3DF49 /* CPRAddition */;
 			targetProxy = 921B86B5FB39E3BE4868FF34EF76AF3F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		14A5F4AE5AA4FE0F9B019ADF9CE474A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D9C613AF0987E147F57C95252DCAD77 /* CPRAddition.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CPRAddition/CPRAddition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CPRAddition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CPRAddition/CPRAddition.modulemap";
+				PRODUCT_MODULE_NAME = CPRAddition;
+				PRODUCT_NAME = CPRAddition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		24E3E341C26C3FE0C8E7DC93313DCE74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FDBACCF79E6A5D7A50E843C48E24DA40 /* Pods-CPRAddition_Example.debug.xcconfig */;
@@ -415,9 +533,9 @@
 			};
 			name = Debug;
 		};
-		46B35D0BA786961B0AA3383BC949179B /* Release */ = {
+		36CA7AADDBE45B5255A17FD235CFA843 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B32BE3349C51C5DCED0ABC6ECEC29C52 /* CPRAddition.xcconfig */;
+			baseConfigurationReference = 4D9C613AF0987E147F57C95252DCAD77 /* CPRAddition.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -576,36 +694,6 @@
 			};
 			name = Debug;
 		};
-		B347ECE91CEE891ACA66EA7A8D6D7282 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B32BE3349C51C5DCED0ABC6ECEC29C52 /* CPRAddition.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CPRAddition/CPRAddition-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CPRAddition/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CPRAddition/CPRAddition.modulemap";
-				PRODUCT_MODULE_NAME = CPRAddition;
-				PRODUCT_NAME = CPRAddition;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -728,11 +816,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4603B13CF6DD59F1C5CA77EBD8E9C67 /* Build configuration list for PBXNativeTarget "CPRAddition" */ = {
+		F40AE99433EAC4A66F08E545BD598F59 /* Build configuration list for PBXNativeTarget "CPRAddition" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B347ECE91CEE891ACA66EA7A8D6D7282 /* Debug */,
-				46B35D0BA786961B0AA3383BC949179B /* Release */,
+				14A5F4AE5AA4FE0F9B019ADF9CE474A1 /* Debug */,
+				36CA7AADDBE45B5255A17FD235CFA843 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
