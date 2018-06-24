@@ -1,0 +1,6 @@
+framework module Pods_CPRAddition_Tests {
+  umbrella header "Pods-CPRAddition_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

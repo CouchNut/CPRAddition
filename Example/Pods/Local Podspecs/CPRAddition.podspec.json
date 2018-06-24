@@ -1,0 +1,22 @@
+{
+  "name": "CPRAddition",
+  "version": "0.1.0",
+  "summary": "A short description of CPRAddition.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yttsecretlisa/CPRAddition",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yttsecretlisa": "yitongtong@secretlisa.com"
+  },
+  "source": {
+    "git": "https://github.com/yttsecretlisa/CPRAddition.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CPRAddition/Classes/**/*"
+}

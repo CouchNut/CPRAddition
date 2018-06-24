@@ -1,0 +1,16 @@
+PODS:
+  - CPRAddition (0.1.0)
+
+DEPENDENCIES:
+  - CPRAddition (from `../`)
+
+EXTERNAL SOURCES:
+  CPRAddition:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CPRAddition: e442f2a6ab18cf9d82a020dcdb98232a76c74f2e
+
+PODFILE CHECKSUM: 1e2084f6ecd6f9cf87c0746d72308136c014334d
+
+COCOAPODS: 1.5.3

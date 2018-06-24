@@ -1,0 +1,6 @@
+framework module CPRAddition {
+  umbrella header "CPRAddition-umbrella.h"
+
+  export *
+  module * { export * }
+}
