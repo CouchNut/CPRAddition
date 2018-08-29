@@ -47,6 +47,11 @@
     NSLog(@"width: %.2f", testView.width);
     NSLog(@"height: %.2f", testView.height);
     NSLog(@"origin: %.2f, %.2f", testView.origin.x, testView.origin.y);
+    
+    
+    
+    UIView *gestureView = [[UIView alloc] initWithFrame:CGRectMake(CGRectGetMidX(testView.frame), CGRectGetMaxY(testView.frame) + 10, 100, 100)];
+    
 }
 
 - (void)didReceiveMemoryWarning

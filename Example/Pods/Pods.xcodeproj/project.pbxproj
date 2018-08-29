@@ -7,39 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1285E68BC8129ED77C76474B5C74026B /* UIColor+CPRAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A1A544F0F307FD69D91ABF4501D01D0 /* UIColor+CPRAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		152AC057E0B03F4678C5FE01491A42E2 /* UIView+CPRAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BF0F8539FFC80D4C656F1478E8D75B5 /* UIView+CPRAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16858B31F07A425CD373D68584005DB6 /* NSString+CPRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CBF271E9C088B84930574A609B2E28 /* NSString+CPRAddition.m */; };
-		1AB859212136747B00ACAA42 /* UIDevice+CPRAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AB8591F2136747B00ACAA42 /* UIDevice+CPRAddition.h */; };
-		1AB859222136747B00ACAA42 /* UIDevice+CPRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB859202136747B00ACAA42 /* UIDevice+CPRAddition.m */; };
-		1AF6B94F2136854E003AA157 /* CPRAPPUIUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AF6B94D2136854E003AA157 /* CPRAPPUIUtil.h */; };
-		1AF6B9502136854E003AA157 /* CPRAPPUIUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF6B94E2136854E003AA157 /* CPRAPPUIUtil.m */; };
+		1AF6B954213697AD003AA157 /* CPRAPPUIUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AF6B952213697AD003AA157 /* CPRAPPUIUtil.h */; };
+		1AF6B955213697AD003AA157 /* CPRAPPUIUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF6B953213697AD003AA157 /* CPRAPPUIUtil.m */; };
 		1F66749E524281017B7412512FEF862F /* Pods-CPRAddition_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F9EF6BFF2129002BF32CBB587E6E5C /* Pods-CPRAddition_Example-dummy.m */; };
+		254FBC6CD472E46E952F49691C714E45 /* NSDictionary+CPRAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 90CACE59C6CF76C817BA75B056C8CA92 /* NSDictionary+CPRAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BCE9620E092165B76026ACD1CBFB173 /* UIDevice+CPRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 901ED9550B7C9043CD961DCDDEBB5C6E /* UIDevice+CPRAddition.m */; };
+		2E009D154D53B8D782D8413B3499DB41 /* CPRAddition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F7E0F999B2F625194C2012517CDD81 /* CPRAddition-dummy.m */; };
+		30446FC65CEFD2B5B7F56A0DD2E148F9 /* CPRAddition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 304D9B5FB353C25286399C0EE6E80473 /* CPRAddition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31C9F62A934B5DA6BBDA8379542022C1 /* Pods-CPRAddition_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22127139C7602D8F27FBA03B0F65664B /* Pods-CPRAddition_Tests-dummy.m */; };
-		4E3DF2896DD09839B8382EFEF0C6FD18 /* NSDate+CPRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D4626ED90DB9AD770DFA4859DA217C /* NSDate+CPRAddition.m */; };
-		4E87240D3DF58CDB32D5F0972898DB16 /* NSString+CPRAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = ACA5FD9E657713FAF38B0ECD3199F15E /* NSString+CPRAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		674B5EDA2BF19CF693400CE6A4766CE5 /* NSDate+CPRAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 0714228C5587D974BDC4AE1BAD15B1B5 /* NSDate+CPRAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70B34E66B9A00FCD696F782C6A3CCA43 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B2BE3AC81014B73B3FA8735827686D /* GTMBase64.m */; };
-		70BE3C73A3969ACA9C637D560A675475 /* NSDictionary+CPRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 32ED2CA8E3C6DD87FED1EF6B0A51BA98 /* NSDictionary+CPRAddition.m */; };
+		382852E6EE9C46A4B5B107CE4D350DF9 /* UIDevice+CPRAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 36004C41B123E408C68AA00753D8348E /* UIDevice+CPRAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		462E3FF0B6CC7D96B227650BA9975EA0 /* NSTimer+CPRBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 15E6CF00E7F1CBC88BFAECCFF88DB67F /* NSTimer+CPRBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46CC302886F4EE795D459944631F9C1B /* CPRAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = B3345A829FA8BD396338C2A5CB08C53B /* CPRAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46D1A72582618959F3AF3938E56CD548 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 7340D6AFF5DEB87C384D0AA69DCF33BE /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4720FCA430AB046C0C43427BA6DEEF43 /* UIImage+CPRColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD0974959E2E2E340F26099EA4074AC /* UIImage+CPRColor.m */; };
+		50E02A5BDA38EA11FD8CA748FC40BCBE /* NSTimer+CPRBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 4981433C2DFC82997EA5495BCD282EFD /* NSTimer+CPRBlock.m */; };
+		5A29A706498619771C4B11F5C10367EF /* UIApplication+CPRAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F98A1077E386DEE074DA833B41146AB /* UIApplication+CPRAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B5B031A5666F37B3F3363AC09E40D89 /* UIColor+CPRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D50E694AF3195938E728355DEC53659 /* UIColor+CPRAddition.m */; };
+		6DCC26587B54DC3D5C24B7DE1E89F5F7 /* NSDictionary+CPRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD0AC3BBCB2A0D809CE7EE59B2D6B74 /* NSDictionary+CPRAddition.m */; };
 		70E39EA9AF9025C5245C11D514B7A182 /* Pods-CPRAddition_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5A149A82FF4C3AEFDB85A2DCE47E5F0 /* Pods-CPRAddition_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78A5703B5EC31A4C8D618FD0 /* UIImage+CPRColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A57C3D394E3594C4688466 /* UIImage+CPRColor.h */; };
-		78A573E3D507061055D49697 /* UIImage+CPRColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A577018BC505ACE65FEE25 /* UIImage+CPRColor.m */; };
-		78A57C2285D87E5030EB1D36 /* NSTimer+CPRBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A57E703395955FC8830129 /* NSTimer+CPRBlock.h */; };
-		78A57CFD4C3E05648C5644E5 /* UIApplication+CPRAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A5772D6FC94B9A4FE37629 /* UIApplication+CPRAddition.h */; };
-		78A57DFBB7AB5A6FBD67A573 /* NSTimer+CPRBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A5737802D94B45962BE375 /* NSTimer+CPRBlock.m */; };
-		78A57EB68B8A7091756A4E4F /* UIApplication+CPRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A57B468312184E08D2A521 /* UIApplication+CPRAddition.m */; };
-		9146D63494A64BD0C62B0ABBDD2BEEFF /* CPRAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 8599C870CBA6D6FE7ED4451708E1726E /* CPRAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9DAB32227C246997C5EDCF12FB9DB421 /* UIView+CPRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = E2432867978B1911BFC5B6DF4C22B178 /* UIView+CPRAddition.m */; };
-		ACC5C1B3D446E05B56DB86C630FD5452 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		71F5F1DA308181D2D09C90E109DEA543 /* NSString+CPRAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F59D819E6606258FB74137E4DEA709 /* NSString+CPRAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A30D69D5813242565883EEEEC1066C70 /* NSString+CPRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B3B33C96F9347F4CB917B5CF667927 /* NSString+CPRAddition.m */; };
+		B57332D04FBF9AF30A62B0FB14C834EC /* NSDate+CPRAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4A1C0E00024D017AFA2D09B2DE96FD /* NSDate+CPRAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B57B9C7399C846B6C4CDBE33576B57AB /* Pods-CPRAddition_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6635838169B7335C184A8D6B4FC282 /* Pods-CPRAddition_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B618C5EEB2050339DBE04F8D2D1CB78B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		C729549BC0914BB93E1B7A219ADD851D /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 7333EFF4999AE460E768B860F39BD906 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE732F4E079DC68164A24359C9045040 /* UIColor+CPRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA45E703ACD3925AD76D7E89D3B286B /* UIColor+CPRAddition.m */; };
-		EDB41E1243102E4A283C4419580AA538 /* NSDictionary+CPRAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = B95E67642FAF117406947180335FC8D1 /* NSDictionary+CPRAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFB50AE31EF7F7554F3DF96203037D80 /* UIView+CPRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = E791641365EF890A479376EAAF8C63A2 /* UIView+CPRAddition.m */; };
+		CAE2F093914725DDD18712C1A0ECBEBC /* UIApplication+CPRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = C391D068581643C56ECD4114BD8AA598 /* UIApplication+CPRAddition.m */; };
+		E027B1891398199A1E2327613495812C /* UIImage+CPRColor.h in Headers */ = {isa = PBXBuildFile; fileRef = D488991458EF416E6C4CB068BA9F426D /* UIImage+CPRColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E21F80F81E88A550C9D77425DAB4181D /* UIView+CPRAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = EE8CEC6036E37FBBF0A240A2209EFA08 /* UIView+CPRAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E37D60BE09F5E1D3A2A7EBB287D53CAB /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 68ABFDECBF1F96C5FF3BB55B0F45921E /* GTMBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6E82E85D12E8ED9B6CB6685E80B38A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		E9259A459A6C520C2313E25D432422DC /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 974764EE12FBA9F4341909D9EB1C4C25 /* GTMBase64.m */; };
 		F1D70F1864C81364C1425F170E04CA52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		F20547549C0A207C9F21DE47F772A3D3 /* CPRAddition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8C714B8E91FE7EF1673F79013A4907 /* CPRAddition-dummy.m */; };
-		F652F6EBD530449B405B2D9D489A244F /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF9B8998DAE55C672BF348601B819F7 /* GTMBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7EE018F2EFA1D58FE216F23F9A7F65F /* CPRAddition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F874C9EC1A33987A4D71052CBBADC31 /* CPRAddition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3E6FA62422CC9E9D80BE2C5007FE14B /* NSDate+CPRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B78F1D2514ECC292EC4B0E53530BECC /* NSDate+CPRAddition.m */; };
+		FB98D1AC99EBDE07CE29795214FAA533 /* UIColor+CPRAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 3707CACE61D4E2EFB90C390643180C21 /* UIColor+CPRAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,25 +54,26 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B3C9F1F50C7EA001B7878F145AC3DF49;
+			remoteGlobalIDString = 798855AD45443E004AA86E3A0698D6B3;
 			remoteInfo = CPRAddition;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0714228C5587D974BDC4AE1BAD15B1B5 /* NSDate+CPRAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+CPRAddition.h"; sourceTree = "<group>"; };
-		1AB8591F2136747B00ACAA42 /* UIDevice+CPRAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+CPRAddition.h"; sourceTree = "<group>"; };
-		1AB859202136747B00ACAA42 /* UIDevice+CPRAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+CPRAddition.m"; sourceTree = "<group>"; };
-		1AF6B94D2136854E003AA157 /* CPRAPPUIUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPRAPPUIUtil.h; sourceTree = "<group>"; };
-		1AF6B94E2136854E003AA157 /* CPRAPPUIUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPRAPPUIUtil.m; sourceTree = "<group>"; };
-		1D0C58E8EC8812BA5E37B5702100E9A6 /* CPRAddition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CPRAddition-prefix.pch"; sourceTree = "<group>"; };
+		0F98A1077E386DEE074DA833B41146AB /* UIApplication+CPRAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIApplication+CPRAddition.h"; sourceTree = "<group>"; };
+		15E6CF00E7F1CBC88BFAECCFF88DB67F /* NSTimer+CPRBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSTimer+CPRBlock.h"; sourceTree = "<group>"; };
+		1A776071DD4C00C8A1DC9D8362E55755 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1AF6B952213697AD003AA157 /* CPRAPPUIUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPRAPPUIUtil.h; sourceTree = "<group>"; };
+		1AF6B953213697AD003AA157 /* CPRAPPUIUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPRAPPUIUtil.m; sourceTree = "<group>"; };
+		1B78F1D2514ECC292EC4B0E53530BECC /* NSDate+CPRAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CPRAddition.m"; sourceTree = "<group>"; };
 		22127139C7602D8F27FBA03B0F65664B /* Pods-CPRAddition_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CPRAddition_Tests-dummy.m"; sourceTree = "<group>"; };
-		22B2BE3AC81014B73B3FA8735827686D /* GTMBase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
-		2A1A544F0F307FD69D91ABF4501D01D0 /* UIColor+CPRAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+CPRAddition.h"; sourceTree = "<group>"; };
-		32ED2CA8E3C6DD87FED1EF6B0A51BA98 /* NSDictionary+CPRAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CPRAddition.m"; sourceTree = "<group>"; };
+		2D50E694AF3195938E728355DEC53659 /* UIColor+CPRAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CPRAddition.m"; sourceTree = "<group>"; };
+		304D9B5FB353C25286399C0EE6E80473 /* CPRAddition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CPRAddition-umbrella.h"; sourceTree = "<group>"; };
 		3398E1A412154B1F93695162A8FF9967 /* Pods_CPRAddition_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPRAddition_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D9C613AF0987E147F57C95252DCAD77 /* CPRAddition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CPRAddition.xcconfig; sourceTree = "<group>"; };
-		4F874C9EC1A33987A4D71052CBBADC31 /* CPRAddition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CPRAddition-umbrella.h"; sourceTree = "<group>"; };
+		34F7E0F999B2F625194C2012517CDD81 /* CPRAddition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CPRAddition-dummy.m"; sourceTree = "<group>"; };
+		36004C41B123E408C68AA00753D8348E /* UIDevice+CPRAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+CPRAddition.h"; sourceTree = "<group>"; };
+		3707CACE61D4E2EFB90C390643180C21 /* UIColor+CPRAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+CPRAddition.h"; sourceTree = "<group>"; };
+		4981433C2DFC82997EA5495BCD282EFD /* NSTimer+CPRBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+CPRBlock.m"; sourceTree = "<group>"; };
 		50A59F415CF175BBDC5E98B7F0D3A18C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		592A90931BA1B32288E30A2BD32DFF54 /* Pods_CPRAddition_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPRAddition_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -80,44 +81,43 @@
 		63381138721A87C9A6FB65586552C992 /* Pods-CPRAddition_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CPRAddition_Example-resources.sh"; sourceTree = "<group>"; };
 		67F9EF6BFF2129002BF32CBB587E6E5C /* Pods-CPRAddition_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CPRAddition_Example-dummy.m"; sourceTree = "<group>"; };
 		6850307B7874768F57E835AD75612BEC /* Pods-CPRAddition_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPRAddition_Example.release.xcconfig"; sourceTree = "<group>"; };
+		68ABFDECBF1F96C5FF3BB55B0F45921E /* GTMBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
 		699795169471096241A1979B8918B9F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		69CBF271E9C088B84930574A609B2E28 /* NSString+CPRAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+CPRAddition.m"; sourceTree = "<group>"; };
-		6EF9B8998DAE55C672BF348601B819F7 /* GTMBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
-		7333EFF4999AE460E768B860F39BD906 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		70118E0803BDE62114F9CA504EAFADE4 /* CPRAddition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CPRAddition.modulemap; sourceTree = "<group>"; };
+		7340D6AFF5DEB87C384D0AA69DCF33BE /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		75ECF22A0BCB35D4E97D4F0A9EF4FCB6 /* Pods-CPRAddition_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CPRAddition_Example.modulemap"; sourceTree = "<group>"; };
-		78A5737802D94B45962BE375 /* NSTimer+CPRBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+CPRBlock.m"; sourceTree = "<group>"; };
-		78A577018BC505ACE65FEE25 /* UIImage+CPRColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CPRColor.m"; sourceTree = "<group>"; };
-		78A5772D6FC94B9A4FE37629 /* UIApplication+CPRAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+CPRAddition.h"; sourceTree = "<group>"; };
-		78A57B468312184E08D2A521 /* UIApplication+CPRAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+CPRAddition.m"; sourceTree = "<group>"; };
-		78A57C3D394E3594C4688466 /* UIImage+CPRColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CPRColor.h"; sourceTree = "<group>"; };
-		78A57E703395955FC8830129 /* NSTimer+CPRBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+CPRBlock.h"; sourceTree = "<group>"; };
-		80D4626ED90DB9AD770DFA4859DA217C /* NSDate+CPRAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CPRAddition.m"; sourceTree = "<group>"; };
+		7D4A1C0E00024D017AFA2D09B2DE96FD /* NSDate+CPRAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+CPRAddition.h"; sourceTree = "<group>"; };
 		824580400D75237953AF65FA7B0632D7 /* Pods-CPRAddition_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CPRAddition_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8599C870CBA6D6FE7ED4451708E1726E /* CPRAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CPRAddition.h; path = CPRAddition/Classes/CPRAddition.h; sourceTree = "<group>"; };
 		8C6635838169B7335C184A8D6B4FC282 /* Pods-CPRAddition_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CPRAddition_Tests-umbrella.h"; sourceTree = "<group>"; };
-		8DA45E703ACD3925AD76D7E89D3B286B /* UIColor+CPRAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CPRAddition.m"; sourceTree = "<group>"; };
+		8DD0AC3BBCB2A0D809CE7EE59B2D6B74 /* NSDictionary+CPRAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CPRAddition.m"; sourceTree = "<group>"; };
 		8FC5B89791E013DFF2ECE0794896AB41 /* Pods-CPRAddition_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CPRAddition_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		901ED9550B7C9043CD961DCDDEBB5C6E /* UIDevice+CPRAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+CPRAddition.m"; sourceTree = "<group>"; };
+		90CACE59C6CF76C817BA75B056C8CA92 /* NSDictionary+CPRAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CPRAddition.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		974764EE12FBA9F4341909D9EB1C4C25 /* GTMBase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
 		981627C9D1E43D79D012A6170DD8821A /* Pods-CPRAddition_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CPRAddition_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9BF0F8539FFC80D4C656F1478E8D75B5 /* UIView+CPRAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+CPRAddition.h"; sourceTree = "<group>"; };
 		9F1F302D2B6FC52C36F231EC3180CEE6 /* Pods-CPRAddition_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CPRAddition_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		A2BDEB07B763CBB50C3C749B4AFA25CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		A830A01B42876B95145A5C5FC613993B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		ACA5FD9E657713FAF38B0ECD3199F15E /* NSString+CPRAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+CPRAddition.h"; sourceTree = "<group>"; };
+		AE1781390FAA43AC1F32A5CBFF9FFDBF /* CPRAddition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CPRAddition-prefix.pch"; sourceTree = "<group>"; };
+		B3345A829FA8BD396338C2A5CB08C53B /* CPRAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CPRAddition.h; path = CPRAddition/Classes/CPRAddition.h; sourceTree = "<group>"; };
 		B3CB98762CA24F65057F269DC5080027 /* CPRAddition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CPRAddition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5149C297C589577DC83BB0D0D22C7AD /* Pods-CPRAddition_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CPRAddition_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B95E67642FAF117406947180335FC8D1 /* NSDictionary+CPRAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CPRAddition.h"; sourceTree = "<group>"; };
-		C000FAA3BF39E4CF54F5F5B78C2E4C8B /* CPRAddition.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CPRAddition.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B7F4419F9863E77C797D352FC79C079B /* CPRAddition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CPRAddition.xcconfig; sourceTree = "<group>"; };
+		B8B3B33C96F9347F4CB917B5CF667927 /* NSString+CPRAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+CPRAddition.m"; sourceTree = "<group>"; };
+		BFD0974959E2E2E340F26099EA4074AC /* UIImage+CPRColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CPRColor.m"; sourceTree = "<group>"; };
+		C391D068581643C56ECD4114BD8AA598 /* UIApplication+CPRAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+CPRAddition.m"; sourceTree = "<group>"; };
 		C610BE6587DDA629560D4FE94A00030C /* Pods-CPRAddition_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CPRAddition_Tests-resources.sh"; sourceTree = "<group>"; };
 		CF390B907D2C63ECE3C31EEF513CE9DB /* Pods-CPRAddition_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CPRAddition_Tests.modulemap"; sourceTree = "<group>"; };
-		CF4D506CDE57E56C46A4791BEA961888 /* CPRAddition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CPRAddition.modulemap; sourceTree = "<group>"; };
+		D488991458EF416E6C4CB068BA9F426D /* UIImage+CPRColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+CPRColor.h"; sourceTree = "<group>"; };
 		D5A149A82FF4C3AEFDB85A2DCE47E5F0 /* Pods-CPRAddition_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CPRAddition_Example-umbrella.h"; sourceTree = "<group>"; };
-		DB8C714B8E91FE7EF1673F79013A4907 /* CPRAddition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CPRAddition-dummy.m"; sourceTree = "<group>"; };
-		E2432867978B1911BFC5B6DF4C22B178 /* UIView+CPRAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+CPRAddition.m"; sourceTree = "<group>"; };
+		DDC03CA28CBEBF03822A2AB24049BC34 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E4F59D819E6606258FB74137E4DEA709 /* NSString+CPRAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+CPRAddition.h"; sourceTree = "<group>"; };
 		E760D61ADFE15AE570CE6F2893D557A6 /* Pods-CPRAddition_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPRAddition_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E791641365EF890A479376EAAF8C63A2 /* UIView+CPRAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+CPRAddition.m"; sourceTree = "<group>"; };
+		EE8CEC6036E37FBBF0A240A2209EFA08 /* UIView+CPRAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+CPRAddition.h"; sourceTree = "<group>"; };
 		F3ACECAD5D4C8709204555678D85CE76 /* Pods-CPRAddition_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPRAddition_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F993851BF8D1938FD308F937C0C36E03 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC6ADBD14C9D0BD3B9630D1AE81F1508 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDBACCF79E6A5D7A50E843C48E24DA40 /* Pods-CPRAddition_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPRAddition_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FEBC27673CD6A209534DE6E8E33D707A /* CPRAddition.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CPRAddition.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,11 +137,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE8E916F20D5E970D5E067564A32E7E4 /* Frameworks */ = {
+		E9D3EFD174E2CB985360FEEE1F33F924 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACC5C1B3D446E05B56DB86C630FD5452 /* Foundation.framework in Frameworks */,
+				E6E82E85D12E8ED9B6CB6685E80B38A7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,34 +151,9 @@
 		0A35AC81BD0A87C33AB6338E1B5B7075 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9EA7A970A5FA70DF15ED9478476988E2 /* CPRAddition */,
+				A0902C838A59F89EF2CB86CDBE58E161 /* CPRAddition */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		1920805D921DC03E714B9804916F6A86 /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				0714228C5587D974BDC4AE1BAD15B1B5 /* NSDate+CPRAddition.h */,
-				80D4626ED90DB9AD770DFA4859DA217C /* NSDate+CPRAddition.m */,
-				B95E67642FAF117406947180335FC8D1 /* NSDictionary+CPRAddition.h */,
-				32ED2CA8E3C6DD87FED1EF6B0A51BA98 /* NSDictionary+CPRAddition.m */,
-				ACA5FD9E657713FAF38B0ECD3199F15E /* NSString+CPRAddition.h */,
-				69CBF271E9C088B84930574A609B2E28 /* NSString+CPRAddition.m */,
-				78A57E703395955FC8830129 /* NSTimer+CPRBlock.h */,
-				78A5737802D94B45962BE375 /* NSTimer+CPRBlock.m */,
-			);
-			name = Foundation;
-			path = CPRAddition/Classes/Foundation;
-			sourceTree = "<group>";
-		};
-		1A39492D2123D7F6006A36BB /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				1AF6B94D2136854E003AA157 /* CPRAPPUIUtil.h */,
-				1AF6B94E2136854E003AA157 /* CPRAPPUIUtil.m */,
-			);
-			path = Util;
 			sourceTree = "<group>";
 		};
 		1A541DE76BDE47F54507CEDD971A7643 /* Products */ = {
@@ -189,6 +164,15 @@
 				592A90931BA1B32288E30A2BD32DFF54 /* Pods_CPRAddition_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		1AF6B951213697AD003AA157 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				1AF6B952213697AD003AA157 /* CPRAPPUIUtil.h */,
+				1AF6B953213697AD003AA157 /* CPRAPPUIUtil.m */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 		2BE26AB397CDA9D53A2F5FABD5825EA7 /* Pods-CPRAddition_Tests */ = {
@@ -209,22 +193,23 @@
 			path = "Target Support Files/Pods-CPRAddition_Tests";
 			sourceTree = "<group>";
 		};
-		4D65EC6E4457F6EB378E16646381EC8C /* UIKit */ = {
+		3D2646BD530FC0D4E283D55EAFA4AB65 /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				2A1A544F0F307FD69D91ABF4501D01D0 /* UIColor+CPRAddition.h */,
-				8DA45E703ACD3925AD76D7E89D3B286B /* UIColor+CPRAddition.m */,
-				9BF0F8539FFC80D4C656F1478E8D75B5 /* UIView+CPRAddition.h */,
-				E2432867978B1911BFC5B6DF4C22B178 /* UIView+CPRAddition.m */,
-				78A57C3D394E3594C4688466 /* UIImage+CPRColor.h */,
-				78A577018BC505ACE65FEE25 /* UIImage+CPRColor.m */,
-				1AB8591F2136747B00ACAA42 /* UIDevice+CPRAddition.h */,
-				1AB859202136747B00ACAA42 /* UIDevice+CPRAddition.m */,
-				78A5772D6FC94B9A4FE37629 /* UIApplication+CPRAddition.h */,
-				78A57B468312184E08D2A521 /* UIApplication+CPRAddition.m */,
+				5291E8894BDD19E3E58EFC493B67A8FE /* GTMBase64 */,
 			);
-			name = UIKit;
-			path = CPRAddition/Classes/UIKit;
+			name = Library;
+			path = CPRAddition/Classes/Library;
+			sourceTree = "<group>";
+		};
+		5291E8894BDD19E3E58EFC493B67A8FE /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				68ABFDECBF1F96C5FF3BB55B0F45921E /* GTMBase64.h */,
+				974764EE12FBA9F4341909D9EB1C4C25 /* GTMBase64.m */,
+				7340D6AFF5DEB87C384D0AA69DCF33BE /* GTMDefines.h */,
+			);
+			path = GTMBase64;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -235,14 +220,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		67C141046FA7919435F3066D0A7A511C /* GTMBase64 */ = {
+		67AA84E9A4A9206A65474E5EA9644959 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				6EF9B8998DAE55C672BF348601B819F7 /* GTMBase64.h */,
-				22B2BE3AC81014B73B3FA8735827686D /* GTMBase64.m */,
-				7333EFF4999AE460E768B860F39BD906 /* GTMDefines.h */,
+				FEBC27673CD6A209534DE6E8E33D707A /* CPRAddition.podspec */,
+				1A776071DD4C00C8A1DC9D8362E55755 /* LICENSE */,
+				DDC03CA28CBEBF03822A2AB24049BC34 /* README.md */,
 			);
-			path = GTMBase64;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		6CE45DF2BD5D3B582842AD977BF15304 /* Targets Support Files */ = {
@@ -265,38 +250,37 @@
 			);
 			sourceTree = "<group>";
 		};
-		802E266433E18FFABA06AD441FBBA921 /* Library */ = {
+		8FEC803E751D06F68444486A8883245D /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				67C141046FA7919435F3066D0A7A511C /* GTMBase64 */,
+				0F98A1077E386DEE074DA833B41146AB /* UIApplication+CPRAddition.h */,
+				C391D068581643C56ECD4114BD8AA598 /* UIApplication+CPRAddition.m */,
+				3707CACE61D4E2EFB90C390643180C21 /* UIColor+CPRAddition.h */,
+				2D50E694AF3195938E728355DEC53659 /* UIColor+CPRAddition.m */,
+				36004C41B123E408C68AA00753D8348E /* UIDevice+CPRAddition.h */,
+				901ED9550B7C9043CD961DCDDEBB5C6E /* UIDevice+CPRAddition.m */,
+				D488991458EF416E6C4CB068BA9F426D /* UIImage+CPRColor.h */,
+				BFD0974959E2E2E340F26099EA4074AC /* UIImage+CPRColor.m */,
+				EE8CEC6036E37FBBF0A240A2209EFA08 /* UIView+CPRAddition.h */,
+				E791641365EF890A479376EAAF8C63A2 /* UIView+CPRAddition.m */,
 			);
-			name = Library;
-			path = CPRAddition/Classes/Library;
+			name = UIKit;
+			path = CPRAddition/Classes/UIKit;
 			sourceTree = "<group>";
 		};
-		9EA7A970A5FA70DF15ED9478476988E2 /* CPRAddition */ = {
+		A0902C838A59F89EF2CB86CDBE58E161 /* CPRAddition */ = {
 			isa = PBXGroup;
 			children = (
-				8599C870CBA6D6FE7ED4451708E1726E /* CPRAddition.h */,
-				1A39492D2123D7F6006A36BB /* Util */,
-				1920805D921DC03E714B9804916F6A86 /* Foundation */,
-				802E266433E18FFABA06AD441FBBA921 /* Library */,
-				9F41722560CA3CFEDEA05B34F9F92924 /* Pod */,
-				C16F5087FAE1956DBCCA0D61860019C0 /* Support Files */,
-				4D65EC6E4457F6EB378E16646381EC8C /* UIKit */,
+				B3345A829FA8BD396338C2A5CB08C53B /* CPRAddition.h */,
+				1AF6B951213697AD003AA157 /* Util */,
+				F2FE64BD0E999BCC4A93A0152CEDD182 /* Foundation */,
+				3D2646BD530FC0D4E283D55EAFA4AB65 /* Library */,
+				67AA84E9A4A9206A65474E5EA9644959 /* Pod */,
+				F98B4AC6B32A180A3D6C3EE9DE50B447 /* Support Files */,
+				8FEC803E751D06F68444486A8883245D /* UIKit */,
 			);
 			name = CPRAddition;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		9F41722560CA3CFEDEA05B34F9F92924 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C000FAA3BF39E4CF54F5F5B78C2E4C8B /* CPRAddition.podspec */,
-				A830A01B42876B95145A5C5FC613993B /* LICENSE */,
-				A2BDEB07B763CBB50C3C749B4AFA25CF /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -305,20 +289,6 @@
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C16F5087FAE1956DBCCA0D61860019C0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CF4D506CDE57E56C46A4791BEA961888 /* CPRAddition.modulemap */,
-				4D9C613AF0987E147F57C95252DCAD77 /* CPRAddition.xcconfig */,
-				DB8C714B8E91FE7EF1673F79013A4907 /* CPRAddition-dummy.m */,
-				1D0C58E8EC8812BA5E37B5702100E9A6 /* CPRAddition-prefix.pch */,
-				4F874C9EC1A33987A4D71052CBBADC31 /* CPRAddition-umbrella.h */,
-				F993851BF8D1938FD308F937C0C36E03 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CPRAddition";
 			sourceTree = "<group>";
 		};
 		F2747519BA1BDE2AD84563DD33BD5E31 /* Pods-CPRAddition_Example */ = {
@@ -339,6 +309,36 @@
 			path = "Target Support Files/Pods-CPRAddition_Example";
 			sourceTree = "<group>";
 		};
+		F2FE64BD0E999BCC4A93A0152CEDD182 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				7D4A1C0E00024D017AFA2D09B2DE96FD /* NSDate+CPRAddition.h */,
+				1B78F1D2514ECC292EC4B0E53530BECC /* NSDate+CPRAddition.m */,
+				90CACE59C6CF76C817BA75B056C8CA92 /* NSDictionary+CPRAddition.h */,
+				8DD0AC3BBCB2A0D809CE7EE59B2D6B74 /* NSDictionary+CPRAddition.m */,
+				E4F59D819E6606258FB74137E4DEA709 /* NSString+CPRAddition.h */,
+				B8B3B33C96F9347F4CB917B5CF667927 /* NSString+CPRAddition.m */,
+				15E6CF00E7F1CBC88BFAECCFF88DB67F /* NSTimer+CPRBlock.h */,
+				4981433C2DFC82997EA5495BCD282EFD /* NSTimer+CPRBlock.m */,
+			);
+			name = Foundation;
+			path = CPRAddition/Classes/Foundation;
+			sourceTree = "<group>";
+		};
+		F98B4AC6B32A180A3D6C3EE9DE50B447 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				70118E0803BDE62114F9CA504EAFADE4 /* CPRAddition.modulemap */,
+				B7F4419F9863E77C797D352FC79C079B /* CPRAddition.xcconfig */,
+				34F7E0F999B2F625194C2012517CDD81 /* CPRAddition-dummy.m */,
+				AE1781390FAA43AC1F32A5CBFF9FFDBF /* CPRAddition-prefix.pch */,
+				304D9B5FB353C25286399C0EE6E80473 /* CPRAddition-umbrella.h */,
+				FC6ADBD14C9D0BD3B9630D1AE81F1508 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CPRAddition";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -350,24 +350,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92B7D665CBD5187361AA578E23D943A7 /* Headers */ = {
+		49A0D53F08237C1A772BBEF50E57EEAD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7EE018F2EFA1D58FE216F23F9A7F65F /* CPRAddition-umbrella.h in Headers */,
-				9146D63494A64BD0C62B0ABBDD2BEEFF /* CPRAddition.h in Headers */,
-				F652F6EBD530449B405B2D9D489A244F /* GTMBase64.h in Headers */,
-				C729549BC0914BB93E1B7A219ADD851D /* GTMDefines.h in Headers */,
-				1AF6B94F2136854E003AA157 /* CPRAPPUIUtil.h in Headers */,
-				674B5EDA2BF19CF693400CE6A4766CE5 /* NSDate+CPRAddition.h in Headers */,
-				EDB41E1243102E4A283C4419580AA538 /* NSDictionary+CPRAddition.h in Headers */,
-				4E87240D3DF58CDB32D5F0972898DB16 /* NSString+CPRAddition.h in Headers */,
-				1285E68BC8129ED77C76474B5C74026B /* UIColor+CPRAddition.h in Headers */,
-				1AB859212136747B00ACAA42 /* UIDevice+CPRAddition.h in Headers */,
-				152AC057E0B03F4678C5FE01491A42E2 /* UIView+CPRAddition.h in Headers */,
-				78A57C2285D87E5030EB1D36 /* NSTimer+CPRBlock.h in Headers */,
-				78A5703B5EC31A4C8D618FD0 /* UIImage+CPRColor.h in Headers */,
-				78A57CFD4C3E05648C5644E5 /* UIApplication+CPRAddition.h in Headers */,
+				1AF6B954213697AD003AA157 /* CPRAPPUIUtil.h in Headers */,
+				30446FC65CEFD2B5B7F56A0DD2E148F9 /* CPRAddition-umbrella.h in Headers */,
+				46CC302886F4EE795D459944631F9C1B /* CPRAddition.h in Headers */,
+				E37D60BE09F5E1D3A2A7EBB287D53CAB /* GTMBase64.h in Headers */,
+				46D1A72582618959F3AF3938E56CD548 /* GTMDefines.h in Headers */,
+				B57332D04FBF9AF30A62B0FB14C834EC /* NSDate+CPRAddition.h in Headers */,
+				254FBC6CD472E46E952F49691C714E45 /* NSDictionary+CPRAddition.h in Headers */,
+				71F5F1DA308181D2D09C90E109DEA543 /* NSString+CPRAddition.h in Headers */,
+				462E3FF0B6CC7D96B227650BA9975EA0 /* NSTimer+CPRBlock.h in Headers */,
+				5A29A706498619771C4B11F5C10367EF /* UIApplication+CPRAddition.h in Headers */,
+				FB98D1AC99EBDE07CE29795214FAA533 /* UIColor+CPRAddition.h in Headers */,
+				382852E6EE9C46A4B5B107CE4D350DF9 /* UIDevice+CPRAddition.h in Headers */,
+				E027B1891398199A1E2327613495812C /* UIImage+CPRColor.h in Headers */,
+				E21F80F81E88A550C9D77425DAB4181D /* UIView+CPRAddition.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +382,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		798855AD45443E004AA86E3A0698D6B3 /* CPRAddition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 830D9958142EB4C8CFD4DC36167956AC /* Build configuration list for PBXNativeTarget "CPRAddition" */;
+			buildPhases = (
+				9A9D6C3822C1934B1238A60E13BF0369 /* Sources */,
+				E9D3EFD174E2CB985360FEEE1F33F924 /* Frameworks */,
+				49A0D53F08237C1A772BBEF50E57EEAD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CPRAddition;
+			productName = CPRAddition;
+			productReference = B3CB98762CA24F65057F269DC5080027 /* CPRAddition.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		94C08B6095A21BD2D169287F955E192B /* Pods-CPRAddition_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65F1D0CE331F33752F0613E95EA670D6 /* Build configuration list for PBXNativeTarget "Pods-CPRAddition_Example" */;
@@ -398,23 +415,6 @@
 			name = "Pods-CPRAddition_Example";
 			productName = "Pods-CPRAddition_Example";
 			productReference = 3398E1A412154B1F93695162A8FF9967 /* Pods_CPRAddition_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B3C9F1F50C7EA001B7878F145AC3DF49 /* CPRAddition */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F40AE99433EAC4A66F08E545BD598F59 /* Build configuration list for PBXNativeTarget "CPRAddition" */;
-			buildPhases = (
-				D6E51D38B647B6C8F38A4228C0FB2F4F /* Sources */,
-				BE8E916F20D5E970D5E067564A32E7E4 /* Frameworks */,
-				92B7D665CBD5187361AA578E23D943A7 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CPRAddition;
-			productName = CPRAddition;
-			productReference = B3CB98762CA24F65057F269DC5080027 /* CPRAddition.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DBBC0BBEE2FD2BB045BCD956035BC4CA /* Pods-CPRAddition_Tests */ = {
@@ -456,7 +456,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B3C9F1F50C7EA001B7878F145AC3DF49 /* CPRAddition */,
+				798855AD45443E004AA86E3A0698D6B3 /* CPRAddition */,
 				94C08B6095A21BD2D169287F955E192B /* Pods-CPRAddition_Example */,
 				DBBC0BBEE2FD2BB045BCD956035BC4CA /* Pods-CPRAddition_Tests */,
 			);
@@ -472,30 +472,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9A9D6C3822C1934B1238A60E13BF0369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E009D154D53B8D782D8413B3499DB41 /* CPRAddition-dummy.m in Sources */,
+				E9259A459A6C520C2313E25D432422DC /* GTMBase64.m in Sources */,
+				F3E6FA62422CC9E9D80BE2C5007FE14B /* NSDate+CPRAddition.m in Sources */,
+				6DCC26587B54DC3D5C24B7DE1E89F5F7 /* NSDictionary+CPRAddition.m in Sources */,
+				A30D69D5813242565883EEEEC1066C70 /* NSString+CPRAddition.m in Sources */,
+				50E02A5BDA38EA11FD8CA748FC40BCBE /* NSTimer+CPRBlock.m in Sources */,
+				CAE2F093914725DDD18712C1A0ECBEBC /* UIApplication+CPRAddition.m in Sources */,
+				5B5B031A5666F37B3F3363AC09E40D89 /* UIColor+CPRAddition.m in Sources */,
+				2BCE9620E092165B76026ACD1CBFB173 /* UIDevice+CPRAddition.m in Sources */,
+				4720FCA430AB046C0C43427BA6DEEF43 /* UIImage+CPRColor.m in Sources */,
+				BFB50AE31EF7F7554F3DF96203037D80 /* UIView+CPRAddition.m in Sources */,
+				1AF6B955213697AD003AA157 /* CPRAPPUIUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D247886ECC71DA99E6FB57AE984683DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				31C9F62A934B5DA6BBDA8379542022C1 /* Pods-CPRAddition_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D6E51D38B647B6C8F38A4228C0FB2F4F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F20547549C0A207C9F21DE47F772A3D3 /* CPRAddition-dummy.m in Sources */,
-				70B34E66B9A00FCD696F782C6A3CCA43 /* GTMBase64.m in Sources */,
-				4E3DF2896DD09839B8382EFEF0C6FD18 /* NSDate+CPRAddition.m in Sources */,
-				70BE3C73A3969ACA9C637D560A675475 /* NSDictionary+CPRAddition.m in Sources */,
-				16858B31F07A425CD373D68584005DB6 /* NSString+CPRAddition.m in Sources */,
-				DE732F4E079DC68164A24359C9045040 /* UIColor+CPRAddition.m in Sources */,
-				9DAB32227C246997C5EDCF12FB9DB421 /* UIView+CPRAddition.m in Sources */,
-				1AB859222136747B00ACAA42 /* UIDevice+CPRAddition.m in Sources */,
-				1AF6B9502136854E003AA157 /* CPRAPPUIUtil.m in Sources */,
-				78A57DFBB7AB5A6FBD67A573 /* NSTimer+CPRBlock.m in Sources */,
-				78A573E3D507061055D49697 /* UIImage+CPRColor.m in Sources */,
-				78A57EB68B8A7091756A4E4F /* UIApplication+CPRAddition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,42 +511,12 @@
 		E12DAEE28A082B0BCAF9F4FAD8798F67 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CPRAddition;
-			target = B3C9F1F50C7EA001B7878F145AC3DF49 /* CPRAddition */;
+			target = 798855AD45443E004AA86E3A0698D6B3 /* CPRAddition */;
 			targetProxy = 921B86B5FB39E3BE4868FF34EF76AF3F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		14A5F4AE5AA4FE0F9B019ADF9CE474A1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D9C613AF0987E147F57C95252DCAD77 /* CPRAddition.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CPRAddition/CPRAddition-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CPRAddition/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CPRAddition/CPRAddition.modulemap";
-				PRODUCT_MODULE_NAME = CPRAddition;
-				PRODUCT_NAME = CPRAddition;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		24E3E341C26C3FE0C8E7DC93313DCE74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FDBACCF79E6A5D7A50E843C48E24DA40 /* Pods-CPRAddition_Example.debug.xcconfig */;
@@ -580,9 +550,9 @@
 			};
 			name = Debug;
 		};
-		36CA7AADDBE45B5255A17FD235CFA843 /* Release */ = {
+		38C9E1639AF7A8A7B11DCAE99F94DFC2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D9C613AF0987E147F57C95252DCAD77 /* CPRAddition.xcconfig */;
+			baseConfigurationReference = B7F4419F9863E77C797D352FC79C079B /* CPRAddition.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -741,6 +711,36 @@
 			};
 			name = Debug;
 		};
+		9B83163E39E741BE8DE681BBB0B255C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7F4419F9863E77C797D352FC79C079B /* CPRAddition.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CPRAddition/CPRAddition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CPRAddition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CPRAddition/CPRAddition.modulemap";
+				PRODUCT_MODULE_NAME = CPRAddition;
+				PRODUCT_NAME = CPRAddition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -863,11 +863,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F40AE99433EAC4A66F08E545BD598F59 /* Build configuration list for PBXNativeTarget "CPRAddition" */ = {
+		830D9958142EB4C8CFD4DC36167956AC /* Build configuration list for PBXNativeTarget "CPRAddition" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				14A5F4AE5AA4FE0F9B019ADF9CE474A1 /* Debug */,
-				36CA7AADDBE45B5255A17FD235CFA843 /* Release */,
+				9B83163E39E741BE8DE681BBB0B255C0 /* Debug */,
+				38C9E1639AF7A8A7B11DCAE99F94DFC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

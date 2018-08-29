@@ -14,9 +14,13 @@
 #import "NSDate+CPRAddition.h"
 #import "NSDictionary+CPRAddition.h"
 #import "NSString+CPRAddition.h"
+#import "NSTimer+CPRBlock.h"
 #import "GTMBase64.h"
 #import "GTMDefines.h"
+#import "UIApplication+CPRAddition.h"
 #import "UIColor+CPRAddition.h"
+#import "UIDevice+CPRAddition.h"
+#import "UIImage+CPRColor.h"
 #import "UIView+CPRAddition.h"
 
 FOUNDATION_EXPORT double CPRAdditionVersionNumber;
