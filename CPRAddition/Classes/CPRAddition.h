@@ -14,5 +14,23 @@
 // 强引用
 #define CPRStrongSelf(weakSelf)     __strong typeof(weakself) strongSelf = (weakSelf);
 
+#define CPRScreenHeight     CGRectGetHeight([UIScreen mainScreen].bounds)
+#define CPRScreenWidth      CGRectGetWidth([UIScreen mainScreen].bounds)
+
+#pragma mark - Founudation
+#import "CPRAPPUIUtil.h"
+#import "CPRThreadUtil.h"
+#import "NSTimer+CPRBlock.h"
+#import "NSDate+CPRAddition.h"
+#import "NSString+CPRAddition.h"
+#import "NSDictionary+CPRAddition.h"
+
+#pragma mark - UIKit
+#import "UIImage+CPRColor.h"
+#import "UIView+CPRAddition.h"
+#import "UIColor+CPRAddition.h"
+#import "UIDevice+CPRAddition.h"
+#import "UIApplication+CPRAddition.h"
+
 
 #endif /* CPRAddition_h */
