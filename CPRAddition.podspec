@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CPRAddition'
   s.version          = '0.1.2'
-  s.summary          = '将开发中常用的方法，封装添加到分类中。'
+  s.summary          = '收集开发过程中常用的方法。'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  将常用的方法，放到分类中，方便在项目中调用。
+  收集开发过程中常用的方法。
                        DESC
 
   s.homepage         = 'https://github.com/yitongtong/CPRAddition'

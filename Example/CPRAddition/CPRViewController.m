@@ -7,8 +7,7 @@
 //
 
 #import "CPRViewController.h"
-#import <CPRAddition/UIView+CPRAddition.h>
-#import <CPRAddition/NSDictionary+CPRAddition.h>
+#import <CPRAddition/CPRAddition.h>
 
 @interface CPRViewController ()
 
@@ -34,10 +33,15 @@
     UIButton *testView = [[UIButton alloc] initWithFrame:CGRectMake(30, 30, 100, 100)];
     [testView setTitle:@"Button" forState:UIControlStateNormal];
     testView.backgroundColor = [UIColor blackColor];
-    // [testView cpr_setBoderColor:[UIColor yellowColor] borderWidth:10];
-    // [testView cpr_setCornerRadius:50];
-    [testView cpr_setCornerRadius:50 boderColor:[UIColor yellowColor] borderWidth:10];
-    //    [testView cpr_setCornerRadius:20 boderColor:[UIColor orangeColor] borderWidth:5 byRoundingCorners:UIRectCornerTopLeft | UIRectCornerBottomLeft];
+    [testView cpr_setCornerRadius:50 boderColor:[UIColor cpr_colorWithHex:0xf64848] borderWidth:10];
+    // [testView cpr_setCornerRadius:50 boderColor:[UIColor orangeColor] borderWidth:10 byRoundingCorners:UIRectCornerTopLeft | UIRectCornerBottomLeft];
+    NSArray *colors = @[
+                        [UIColor cpr_colorWithHex:0x0074ff],
+                        [UIColor cpr_colorWithHex:0x00b7ff],
+                        ];
+    UIImage *image = [UIImage cpr_gradientColorImageFromColors:colors gradientType:CPRGradientTypeTopToBottom imgSize:CGSizeMake(100, 100)];
+    [testView setBackgroundImage:image forState:UIControlStateNormal];
+    // [testView setBackgroundImage:[UIImage cpr_imageWithColor:[UIColor purpleColor]] forState:UIControlStateNormal];
     [self.view addSubview:testView];
     NSLog(@"size: %.2f, %.2f", testView.size.width, testView.size.height);
     NSLog(@"originX: %.2f", testView.originX);
@@ -48,8 +52,10 @@
     NSLog(@"height: %.2f", testView.height);
     NSLog(@"origin: %.2f, %.2f", testView.origin.x, testView.origin.y);
     
-    UIView *gestureView = [[UIView alloc] initWithFrame:CGRectMake(CGRectGetMidX(testView.frame), CGRectGetMaxY(testView.frame) + 10, 100, 100)];
-    gestureView.backgroundColor = [UIColor yellowColor];
+    // test view add gesture
+    UIView *gestureView = [[UIView alloc] initWithFrame:CGRectMake(CGRectGetMidX(testView.frame), CGRectGetMaxY(testView.frame) + 10, 200, 70)];
+    gestureView.backgroundColor = [UIColor colorWithPatternImage:image];
+    [gestureView cpr_setCornerRadius:8 boderColor:nil borderWidth:0];
     [gestureView cpr_addTapGestureRecognizer:^(UITapGestureRecognizer *tap) {
         NSLog(@"tap state: %ld", tap.state);
     }];
