@@ -19,7 +19,6 @@
 
 #pragma mark - Founudation
 #import "CPRAPPUIUtil.h"
-#import "CPRThreadUtil.h"
 #import "NSTimer+CPRBlock.h"
 #import "NSDate+CPRAddition.h"
 #import "NSString+CPRAddition.h"
