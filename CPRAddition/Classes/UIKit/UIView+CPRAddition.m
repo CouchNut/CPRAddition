@@ -7,6 +7,12 @@
 //
 
 #import "UIView+CPRAddition.h"
+#import <objc/runtime.h>
+
+static void *CPRTapGestureKey = &CPRTapGestureKey;
+static void *CPRTapGestureBlockKey = &CPRTapGestureBlockKey;
+static void *CPRLongPressGestureKey = &CPRLongPressGestureKey;
+static void *CPRLongPressGestureBlockKey = &CPRLongPressGestureBlockKey;
 
 @implementation UIView (CPRAddition)
 
@@ -133,6 +139,48 @@
     
     [self.layer insertSublayer:shapeLayer atIndex:0];
     [self.layer setMask:maskLayer];
+}
+
+// 增加点击手势
+- (void)cpr_addTapGestureRecognizer:(void (^)(UITapGestureRecognizer *tap))action
+{
+    objc_setAssociatedObject(self, CPRTapGestureBlockKey, action, OBJC_ASSOCIATION_COPY);
+    UITapGestureRecognizer *tap = objc_getAssociatedObject(self, CPRTapGestureKey);
+    if (!tap) {
+        tap = [[UITapGestureRecognizer alloc] init];
+        tap.numberOfTapsRequired = 1;
+        tap.numberOfTouchesRequired = 1;
+        [tap addTarget:self action:@selector(cpr_tapGestureAction:)];
+        [self addGestureRecognizer:tap];
+    }
+}
+
+- (void)cpr_tapGestureAction:(UITapGestureRecognizer *)tap
+{
+    void (^CPRTapGestureBlock)(UITapGestureRecognizer *tap) = objc_getAssociatedObject(self, CPRTapGestureBlockKey);
+    if (CPRTapGestureBlock) {
+        CPRTapGestureBlock(tap);
+    }
+}
+
+// 增加长按手势
+- (void)cpr_addLongPressGestureRecognizer:(void (^)(UILongPressGestureRecognizer *longPress))action
+{
+    objc_setAssociatedObject(self, CPRLongPressGestureBlockKey, action, OBJC_ASSOCIATION_COPY);
+    UILongPressGestureRecognizer *longPress = objc_getAssociatedObject(self, CPRLongPressGestureKey);
+    if (!longPress) {
+        longPress = [[UILongPressGestureRecognizer alloc] init];
+        [longPress addTarget:self action:@selector(cpr_longPressGestureAction:)];
+        [self addGestureRecognizer:longPress];
+    }
+}
+
+- (void)cpr_longPressGestureAction:(UILongPressGestureRecognizer *)longPress
+{
+    void (^CPRLongPressGestureBlock)(UILongPressGestureRecognizer *longPress) = objc_getAssociatedObject(self, CPRLongPressGestureBlockKey);
+    if (CPRLongPressGestureBlock) {
+        CPRLongPressGestureBlock(longPress);
+    }
 }
 
 @end

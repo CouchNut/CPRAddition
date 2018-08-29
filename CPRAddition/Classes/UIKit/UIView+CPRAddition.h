@@ -48,4 +48,11 @@
  */
 - (void)cpr_setCornerRadius:(CGFloat)radius boderColor:(UIColor *)color borderWidth:(CGFloat)borderWidth byRoundingCorners:(UIRectCorner)corner;
 
+#pragma mark - gesture recognizer
+// 增加点击手势
+- (void)cpr_addTapGestureRecognizer:(void (^)(UITapGestureRecognizer *tap))action;
+
+// 增加长按手势
+- (void)cpr_addLongPressGestureRecognizer:(void (^)(UILongPressGestureRecognizer *longPress))action;
+
 @end
