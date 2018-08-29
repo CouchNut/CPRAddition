@@ -48,10 +48,15 @@
     NSLog(@"height: %.2f", testView.height);
     NSLog(@"origin: %.2f, %.2f", testView.origin.x, testView.origin.y);
     
-    
-    
     UIView *gestureView = [[UIView alloc] initWithFrame:CGRectMake(CGRectGetMidX(testView.frame), CGRectGetMaxY(testView.frame) + 10, 100, 100)];
-    
+    gestureView.backgroundColor = [UIColor yellowColor];
+    [gestureView cpr_addTapGestureRecognizer:^(UITapGestureRecognizer *tap) {
+        NSLog(@"tap state: %ld", tap.state);
+    }];
+    [gestureView cpr_addLongPressGestureRecognizer:^(UILongPressGestureRecognizer *longPress) {
+        NSLog(@"longPress state: %ld", longPress.state);
+    }];
+    [self.view addSubview:gestureView];
 }
 
 - (void)didReceiveMemoryWarning

@@ -22,6 +22,7 @@
 #import "UIDevice+CPRAddition.h"
 #import "UIImage+CPRColor.h"
 #import "UIView+CPRAddition.h"
+#import "CPRAPPUIUtil.h"
 
 FOUNDATION_EXPORT double CPRAdditionVersionNumber;
 FOUNDATION_EXPORT const unsigned char CPRAdditionVersionString[];
