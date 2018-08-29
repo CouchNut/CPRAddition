@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CPRAddition'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = '将开发中常用的方法，封装添加到分类中。'
 
 # This description is used to generate tags and improve search results.
