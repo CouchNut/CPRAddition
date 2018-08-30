@@ -17,6 +17,11 @@ typedef NS_ENUM(NSUInteger, CPRGradientType) {
 
 + (UIImage *)cpr_gradientColorImageFromColors:(NSArray *)colors gradientType:(CPRGradientType)gradientType imgSize:(CGSize)imgSize;
 
++ (CGContextRef)cwp_createARGBBitmapContextFromImage:(CGImageRef)inImage;
+
 - (UIImage *)cpr_imageWithRoundedCornersSize:(float)cornerRadius;
+
+// 获取image上的某一点的颜色
+- (UIColor *)cwp_colorAtPixel:(CGPoint)point;
 
 @end
