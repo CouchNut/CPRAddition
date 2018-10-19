@@ -22,10 +22,11 @@
 #import "NSTimer+CPRBlock.h"
 #import "NSDate+CPRAddition.h"
 #import "NSString+CPRAddition.h"
+#import "NSObject+CPRAddition.h"
 #import "NSDictionary+CPRAddition.h"
 
 #pragma mark - UIKit
-#import "UIImage+CPRColor.h"
+#import "UIImage+CPRAddition.h"
 #import "UIView+CPRAddition.h"
 #import "UIColor+CPRAddition.h"
 #import "UIDevice+CPRAddition.h"

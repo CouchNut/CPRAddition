@@ -2,7 +2,7 @@
 // Created by Copper on 2018/8/29.
 //
 
-#import "UIImage+CPRColor.h"
+#import "UIImage+CPRAddition.h"
 
 
 @implementation UIImage (CPRColor)
@@ -169,6 +169,33 @@
     }
     
     return color;
+}
+
+@end
+
+@implementation UIImage (UIView)
+
++ (UIImage *)cpr_imageWithView:(UIView *)view
+{
+    return [self cpr_imageWithView:view frame:view.bounds];
+}
+
++ (UIImage *)cpr_imageWithView:(UIView *)view frame:(CGRect)frame
+{
+    if (!view) {
+        return nil;
+    }
+    
+    UIImage *image = nil;
+    
+    UIGraphicsBeginImageContextWithOptions(frame.size, YES, 0.0);
+    
+    [view.layer renderInContext:UIGraphicsGetCurrentContext()];
+    image = UIGraphicsGetImageFromCurrentImageContext();
+    
+    UIGraphicsEndImageContext();
+    
+    return image;
 }
 
 @end

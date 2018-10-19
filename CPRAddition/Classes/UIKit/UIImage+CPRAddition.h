@@ -25,3 +25,11 @@ typedef NS_ENUM(NSUInteger, CPRGradientType) {
 - (UIColor *)cwp_colorAtPixel:(CGPoint)point;
 
 @end
+
+@interface UIImage (UIView)
+
+// 对指定View进行截图
++ (UIImage *)cpr_imageWithView:(UIView *)view;
++ (UIImage *)cpr_imageWithView:(UIView *)view frame:(CGRect)frame;
+
+@end

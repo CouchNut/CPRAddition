@@ -13,6 +13,7 @@
 #import "CPRAddition.h"
 #import "NSDate+CPRAddition.h"
 #import "NSDictionary+CPRAddition.h"
+#import "NSObject+CPRAddition.h"
 #import "NSString+CPRAddition.h"
 #import "NSTimer+CPRBlock.h"
 #import "GTMBase64.h"
@@ -20,7 +21,7 @@
 #import "UIApplication+CPRAddition.h"
 #import "UIColor+CPRAddition.h"
 #import "UIDevice+CPRAddition.h"
-#import "UIImage+CPRColor.h"
+#import "UIImage+CPRAddition.h"
 #import "UIView+CPRAddition.h"
 #import "CPRAPPUIUtil.h"
 
