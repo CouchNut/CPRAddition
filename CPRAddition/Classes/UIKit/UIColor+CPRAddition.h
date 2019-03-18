@@ -27,12 +27,4 @@
  */
 + (UIColor *)cpr_colorWithHex:(long)hexColor alpha:(float)opacity;
 
-/**
- iOS中十六进制的颜色（以#开头）转换为UIColor
-
- @param color 颜色字符串， 例如 "#3366ee" 、 "0x3366ee"
- @return 颜色
- */
-+ (UIColor *)cpr_colorWithHexString:(NSString *)color;
-
 @end

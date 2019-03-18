@@ -2,7 +2,7 @@
 // Created by Copper on 2018/8/29.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface UIApplication (CPRAddition)
 
